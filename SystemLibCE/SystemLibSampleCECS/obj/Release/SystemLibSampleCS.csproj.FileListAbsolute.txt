@@ -1,8 +1,0 @@
-D:\Solutions\dtx8_samples\SystemLibCE\SystemLibSampleCECS\bin\Release\SystemLibSampleCS.exe
-D:\Solutions\dtx8_samples\SystemLibCE\SystemLibSampleCECS\obj\Release\ResolveAssemblyReference.cache
-D:\Solutions\dtx8_samples\SystemLibCE\SystemLibSampleCECS\obj\Release\SystemLibSampleCS.Form_BUZZER.resources
-D:\Solutions\dtx8_samples\SystemLibCE\SystemLibSampleCECS\obj\Release\SystemLibSampleCS.Form_LED.resources
-D:\Solutions\dtx8_samples\SystemLibCE\SystemLibSampleCECS\obj\Release\SystemLibSampleCS.Form_Main.resources
-D:\Solutions\dtx8_samples\SystemLibCE\SystemLibSampleCECS\obj\Release\SystemLibSampleCS.Form_VIBRATOR.resources
-D:\Solutions\dtx8_samples\SystemLibCE\SystemLibSampleCECS\obj\Release\SystemLibSampleCS.csproj.GenerateResource.Cache
-D:\Solutions\dtx8_samples\SystemLibCE\SystemLibSampleCECS\obj\Release\SystemLibSampleCS.exe
