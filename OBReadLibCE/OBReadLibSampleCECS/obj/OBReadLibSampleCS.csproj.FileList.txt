@@ -1,0 +1,9 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\OBRLibSampleCS.Form1.resources
+obj\Debug\OBReadLibSampleCS.csproj.GenerateResource.Cache
+bin\Debug\OBReadLibSampleCS.exe
+bin\Debug\OBReadLibSampleCS.pdb
+bin\Debug\OBReadLibNet.dll
+bin\Debug\SystemLibnet.dll
+obj\Debug\OBReadLibSampleCS.exe
+obj\Debug\OBReadLibSampleCS.pdb

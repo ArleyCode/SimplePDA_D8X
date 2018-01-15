@@ -1,0 +1,215 @@
+//Microsoft eMbedded Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDM_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "Test"
+    BEGIN
+        MENUITEM "LED",                         IDM_LED
+        MENUITEM "Buzzer",                      IDM_BUZZER
+        MENUITEM "Vibrator",                    IDM_VIBRATOR
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_LED DIALOG DISCARDABLE  0, 0, 135, 152
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE 0x80000000L
+CAPTION "LED"
+FONT 9, "System"
+BEGIN
+    PUSHBUTTON      "Get status",IDC_GET,7,117,121,14
+    LTEXT           "LED ON count",IDC_STATIC,7,7,77,10
+    LTEXT           "LED ON time",IDC_STATIC,7,21,77,10
+    LTEXT           "LED OFF time",IDC_STATIC,7,36,77,10
+    EDITTEXT        IDC_NUM,90,7,38,12,ES_NUMBER
+    EDITTEXT        IDC_ONTIME,90,21,38,12,ES_NUMBER
+    EDITTEXT        IDC_OFFTIME,90,36,38,12,ES_NUMBER
+    PUSHBUTTON      "Green",IDC_GREEN,7,53,38,14
+    PUSHBUTTON      "Red",IDC_RED,48,53,38,14
+    PUSHBUTTON      "Orange",IDC_ORANGE,89,53,38,14
+    PUSHBUTTON      "Blue",IDC_BLUE,7,70,38,14
+    PUSHBUTTON      "Cyan",IDC_CYAN,48,70,38,14
+    PUSHBUTTON      "Magenta",IDC_MAGENTA,89,70,38,14
+    PUSHBUTTON      "LED OFF",IDC_OFF,7,95,121,14
+END
+
+IDD_BUZZER DIALOG DISCARDABLE  0, 0, 135, 152
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE 0x80000000L
+CAPTION "Buzzer"
+FONT 9, "System"
+BEGIN
+    COMBOBOX        IDC_TYPE,7,7,121,119,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "Mute",IDC_MUTE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,
+                    22,78,11
+    LTEXT           "Volume",IDC_STATIC,7,36,65,9
+    COMBOBOX        IDC_VOLUME,74,34,54,48,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Frequency",IDC_STATIC,7,51,65,9
+    EDITTEXT        IDC_HELZ,74,49,54,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Time",IDC_STATIC,7,66,65,9
+    EDITTEXT        IDC_TIME,74,64,54,12,ES_AUTOHSCROLL | ES_NUMBER
+    PUSHBUTTON      "Play",IDC_PLAY,7,79,60,13
+    PUSHBUTTON      "Stop",IDC_STOP,68,79,60,13
+END
+
+IDD_VIBRATOR DIALOG DISCARDABLE  0, 0, 135, 152
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE 0x80000000L
+CAPTION "Vibrator"
+FONT 9, "System"
+BEGIN
+    COMBOBOX        IDC_TYPE,7,7,121,119,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "Mute",IDC_MUTE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,
+                    22,78,11
+    PUSHBUTTON      "Play",IDC_PLAY,7,79,60,13
+    PUSHBUTTON      "Stop",IDC_STOP,68,79,60,13
+    LTEXT           "Vibrator Count",IDC_STATIC,7,35,77,10
+    LTEXT           "Vibrator ON Time",IDC_STATIC,7,49,77,10
+    LTEXT           "Vibrator OFF Time",IDC_STATIC,7,64,77,10
+    EDITTEXT        IDC_NUM,90,35,38,12,ES_NUMBER
+    EDITTEXT        IDC_ONTIME,90,49,38,12,ES_NUMBER
+    EDITTEXT        IDC_OFFTIME,90,63,38,12,ES_NUMBER
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_LED, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 128
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 145
+    END
+
+    IDD_BUZZER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 128
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 145
+    END
+
+    IDD_VIBRATOR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 128
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 145
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_APP_TITLE           "SystemLib Sample for VC"
+    IDS_WND_CLASS           "SystemLibSampleVC"
+    IDS_VOLUME_MIN          "Min"
+    IDS_VOLUME_MID          "Middle"
+    IDS_VOLUME_MAX          "Max"
+    IDS_TYPE_CLICK          "Click"
+    IDS_TYPE_ALARM          "Alarm"
+    IDS_TYPE_WARNING        "Warning"
+    IDS_TYPE_SCANEND        "Scanner "
+    IDS_TYPE_WIREREAD       "Wireless read"
+    IDS_TYPE_CARDREAD       "Card read"
+    IDS_TYPE_USERDEF        "User Define"
+    IDS_TYPE_TAP            "Tap"
+    IDS_TYPE_ALLBUZ         "All Buzzer"
+    IDS_TYPE_ALLVIB         "All Vibrator"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ERR_PARAMETER       "Invalid parameter specified."
+    IDS_ERR_UNSUPPORT       "Do not support function."
+    IDS_ERR_FAILED          "Failed function."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

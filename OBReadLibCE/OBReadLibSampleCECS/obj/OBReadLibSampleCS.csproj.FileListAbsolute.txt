@@ -1,0 +1,7 @@
+D:\Work\CASIO Handheld Terminal\Software Download\DT-X8\dtx8CEBasic_Development_Kit_207\SETUP\dtx8_samples_EN_20110309\dtx8_samples\OBReadLibCE\OBReadLibSampleCECS\bin\Release\OBReadLibSampleCS.exe
+D:\Work\CASIO Handheld Terminal\Software Download\DT-X8\dtx8CEBasic_Development_Kit_207\SETUP\dtx8_samples_EN_20110309\dtx8_samples\OBReadLibCE\OBReadLibSampleCECS\bin\Release\OBReadLibNet.dll
+D:\Work\CASIO Handheld Terminal\Software Download\DT-X8\dtx8CEBasic_Development_Kit_207\SETUP\dtx8_samples_EN_20110309\dtx8_samples\OBReadLibCE\OBReadLibSampleCECS\bin\Release\SystemLibnet.dll
+D:\Work\CASIO Handheld Terminal\Software Download\DT-X8\dtx8CEBasic_Development_Kit_207\SETUP\dtx8_samples_EN_20110309\dtx8_samples\OBReadLibCE\OBReadLibSampleCECS\obj\Release\ResolveAssemblyReference.cache
+D:\Work\CASIO Handheld Terminal\Software Download\DT-X8\dtx8CEBasic_Development_Kit_207\SETUP\dtx8_samples_EN_20110309\dtx8_samples\OBReadLibCE\OBReadLibSampleCECS\obj\Release\OBRLibSampleCS.Form1.resources
+D:\Work\CASIO Handheld Terminal\Software Download\DT-X8\dtx8CEBasic_Development_Kit_207\SETUP\dtx8_samples_EN_20110309\dtx8_samples\OBReadLibCE\OBReadLibSampleCECS\obj\Release\OBReadLibSampleCS.csproj.GenerateResource.Cache
+D:\Work\CASIO Handheld Terminal\Software Download\DT-X8\dtx8CEBasic_Development_Kit_207\SETUP\dtx8_samples_EN_20110309\dtx8_samples\OBReadLibCE\OBReadLibSampleCECS\obj\Release\OBReadLibSampleCS.exe

@@ -1,0 +1,129 @@
+//Microsoft eMbedded Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON    DISCARDABLE     "OBReadLibSample.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_READBUF DIALOG DISCARDABLE  0, 0, 142, 147
+STYLE WS_CHILD | WS_VISIBLE
+FONT 8, "System"
+BEGIN
+    EDITTEXT        IDC_EDIT_SCANDATA,14,24,105,28,ES_MULTILINE | 
+                    ES_WANTRETURN | WS_VSCROLL
+    EDITTEXT        IDC_EDIT_RCODE,66,67,63,14,ES_AUTOHSCROLL
+    LTEXT           "Barcode type",IDC_STATIC,9,69,53,11
+    EDITTEXT        IDC_EDIT_RLNG,66,87,63,14,ES_AUTOHSCROLL
+    LTEXT           "Data length",IDC_STATIC,9,89,53,11
+    EDITTEXT        IDC_EDIT_ENDINF,66,107,63,14,ES_AUTOHSCROLL
+    LTEXT           "Terminate code",IDC_STATIC,8,109,53,11
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG_READBUF, DIALOG
+    BEGIN
+        LEFTMARGIN, 8
+        RIGHTMARGIN, 134
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 140
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_WND_CLASS           "OBRLibSampleVC"
+    IDS_APP_TITLE           "OBRLib Sample for VC"
+    IDS_RCODE               "BarCode Type"
+    IDS_RLNG                "ReadDataLength"
+    IDS_ENDINF              "End Inf"
+    IDS_MSG_HOTKEYFAIL      "Trigger keys are being used. Please quit the program which is using the trigger keys."
+    IDS_MSG_CONNECTFAIL     "Failed to connect to the scanner."
+    IDS_MSG_CAMERAFAIL      "Failed to connect to the scanner. Please exit a camera application."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
